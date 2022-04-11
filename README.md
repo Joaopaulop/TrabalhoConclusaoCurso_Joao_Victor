@@ -1,1 +1,1 @@
-# TrabalhoConclusaoCurso_Joao_Victor
+# Trabalho de Conclusão de Curso: João e Victor
