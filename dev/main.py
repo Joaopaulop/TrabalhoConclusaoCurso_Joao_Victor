@@ -1,8 +1,9 @@
 from TrabalhoConclusaoCurso_Joao_Victor.model import models
-from peewee import *
+# from peewee import *
+from peewee import SqliteDatabase
 import sqlite3
 
-db = sqlite3.connect('bd_tcc.db')
+db = SqliteDatabase('bd_tcc.db')
 
 class Person(models):
 
