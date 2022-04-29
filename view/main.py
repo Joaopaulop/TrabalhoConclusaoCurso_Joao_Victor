@@ -1,8 +1,9 @@
 from kivy.app import App
 from kivy.uix.button import Button
+from matplotlib.pyplot import text
 
-class test(App):
+class Test(App):
     def build(self):
-        return Button(text="Ola mundo")
+        return Button(text="hello world \n  Sucesso no TCC")
         
-test.run()
+Test().run()
