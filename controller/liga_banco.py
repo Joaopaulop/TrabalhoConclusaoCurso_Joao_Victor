@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect('bd_tcc.db')
+conn = sqlite3.connect('/banco/bd_tcc.db')
 
 def selecao_nome_usuario(conn, nome):
     cur = conn.cursor()
