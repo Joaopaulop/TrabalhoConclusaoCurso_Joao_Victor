@@ -8,7 +8,7 @@ class Test(App):
     def build(self):
         box = BoxLayout(orientation='vertical')
         button = Button(text='Botao 1')
-        label = Label('Texto 1')
+        label = Label(text='Texto 1')
         box.add_widget(button)
         box.add_widget(label)
 
